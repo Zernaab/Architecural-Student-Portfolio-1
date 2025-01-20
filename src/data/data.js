@@ -6,8 +6,8 @@ const data = {
     contact: {
         email: "nisar.zernaab@gmail.com",
         phone: "6393179937",
-        linkedin: "https://www.linkedin.com/",
-        github: "https://www.github.com/",
+        linkedin: "not available",
+        github: "https://github.com/Zernaab",
     }
 }
 

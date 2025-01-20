@@ -3,10 +3,11 @@ import data from "./data/data";
 import { createThreeScene } from "./threeScene";
 
 const cubes = [
-  "./cubeDrawings/cube1.webp",
-  "./cubeDrawings/cube2.webp",
-  "./cubeDrawings/cube3.webp",
-  "./cubeDrawings/cube4.webp",
+  "./collage/ITERATIONS.png",
+  "./collage/ITERATIONS2.png",
+  "./collage/ITERATIONS3.png",
+  "./collage/ITERATIONS4.png",
+  "./collage/ITERATIONS5.png",
 ];
 
 const trees = [
@@ -32,15 +33,15 @@ document.querySelector("#app").innerHTML = `
 
     <section id="projects">
       <div id="project-row">
-      Model 1
+      Exquisite Corpse
         <div class="three-model">
-          <img src="./collage/ITERATIONS.png" id="collage1" alt="Collage Image 1" />
+          <a href="./collage/collage 2.png" target="_blank"><img src="./collage/collage 2.png" id="collage1" alt="Collage Image 1" /></a>
         </div>
         <div id="images-description">
           <div id="images">
             ${cubes
               .map(
-                (cube, index) => `<img src="${cube}" alt="cube${index + 1}" />`
+                (cube, index) => `<a href="${cube}" target="_blank"><img src="${cube}" alt="cube${index + 1}" /></a>`
               )
               .join("")}
           </div>

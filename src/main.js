@@ -11,10 +11,12 @@ const cubes = [
 ];
 
 const trees = [
-  "./treeDrawings/tree1.jpg",
-  "./treeDrawings/tree2.jpg",
-  "./treeDrawings/tree3.jpg",
-  "./treeDrawings/tree4.jpg",
+  "./Bulbasaur/anylsis2.png",
+  "./Bulbasaur/anylsis3.png",
+  "./Bulbasaur/anylsis4.png",
+  "./Bulbasaur/anylsis5.png",
+  "./Bulbasaur/anylsis6.png",
+  "./Bulbasaur/anylsis7.png",
 ];
 
 const houses = [
@@ -69,7 +71,14 @@ In the pursuit of modernization, cities often lose regionally unique characteris
               )
               .join("")}
           </div>
-          <h4 id="description">A 3D tree model is a geometric representation of a tree, featuring a trunk, branches, and foliage. The trunk is typically cylindrical, with textured bark, while the branches extend outward to support leaves or a canopy. It may include roots or flowers for added detail.</h4>
+          <h4 id="description">This assignment had various learning curves and taught me valuable lessons along the way, refining my modelling skills and limit-testing my PC capabilities. Fortunately, my primary system can handle large files just fine; however, when transferring these files onto my laptop, a device with more average specs, the system began to slow down significantly and eventually crashed. This rigorous process of messing with import settings and command prompts taught me optimal methods to retain the original blender files' integrity or how different settings manipulate/enhance the original geometry. OBJ was the best import format for this assignment, as it retained the original typology, had the same scale, and kept a relatively small file size suitable for simple objects. 
+
+The chart highlighted the differences between mesh, Nurbs, and Subd modelling. While Nurbs is a highly accurate form of modelling, they complexify objects too much, while meshes are more simplified and easier to work with. They also smoothen creases, creating different visual effects between smooth and shiny. SubD is a handy tool for creating smooth objects with an organic sculpture-like feel. I learned the power of subD in this project; as before in BlenderBlender, I would remesh and use the sculpt tool to create smooth shapes; however, combining mesh modelling with subD makes an easier, more organized workflow.  
+
+Overall, this assignment has taught me the ups and downs of different modelling techniques, giving me lessons on optimizing my objects better. This was my first time with 3D printing, and I ran into trouble with my model not being a closed mesh. Thankfully, because I had used mesh modelling, I could quickly fix the problem, whereas if I had only used sculpt mode in Blender, it would have taken significantly longer to resolve the issue. 
+
+I intend to keep using meshes in the future, as they allow me to create a clean, simple typology that still looks complex with the help of SubD modifiers. I can also vary my file imports depending on what my object requires. This experience has provided me with helpful lessons that will enhance my skills for future projects. 
+</h4>
         </div>
       </div>
     

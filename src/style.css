@@ -81,6 +81,7 @@ h1 {
 #project-row {
   /* Row layout for projects */
   display: flex;
+  flex-direction: column;
   justify-content: center;
   padding-top: 5em;
 }

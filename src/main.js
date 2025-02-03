@@ -58,18 +58,17 @@ In the pursuit of modernization, cities often lose regionally unique characteris
 
     
       <div id="project-row">
-      Model 2
+      Geo & Interoperability
         <div class="three-model">
           <div id="model2"></div>
         </div>
         <div id="images-description">
           <div id="images">
-            ${trees
-              .map(
-                (trees, index) =>
-                  `<img src="${trees}" alt="tree${index + 1}" />`
-              )
-              .join("")}
+          ${trees
+            .map(
+              (trees, index) => `<a href="${trees}" target="_blank"><img src="${trees}" alt="tree${index + 1}" /></a>`
+            )
+            .join("")}
           </div>
           <h4 id="description">This assignment had various learning curves and taught me valuable lessons along the way, refining my modelling skills and limit-testing my PC capabilities. Fortunately, my primary system can handle large files just fine; however, when transferring these files onto my laptop, a device with more average specs, the system began to slow down significantly and eventually crashed. This rigorous process of messing with import settings and command prompts taught me optimal methods to retain the original blender files' integrity or how different settings manipulate/enhance the original geometry. OBJ was the best import format for this assignment, as it retained the original typology, had the same scale, and kept a relatively small file size suitable for simple objects. 
 

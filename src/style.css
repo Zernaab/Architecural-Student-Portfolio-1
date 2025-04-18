@@ -100,7 +100,7 @@ h1 {
 #model5 {
   height: 300px;
   width: 300px;
-  margin-right: 3em;
+  margin-right: 6em;
   margin-left: 6em;
   border: 1px solid #ccc;
 }
@@ -108,7 +108,7 @@ h1 {
 #collage1 {
   height: 330px;
   width: 510px;
-  margin-right: 3em;
+  margin-right: 6em;
   margin-left: 6em;
   border: 1px solid #ccc;
 }
@@ -127,6 +127,7 @@ img {
   align-items: center;
   height: 8em;
   margin-bottom: 2em;
+  margin-top: 2em;
 }
 
 #images-row {
@@ -135,6 +136,26 @@ img {
   align-items: center;
   align-items: center;
   position: relative;
+}
+
+.video {
+  display: flex;
+  align-items: center;
+  align-items: center;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.video-container {
+  /* Center video container */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 320px;
+  max-width: 320px;
 }
 
 #description {

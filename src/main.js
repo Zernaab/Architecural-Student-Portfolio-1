@@ -76,6 +76,14 @@ document.querySelector("#app").innerHTML = `
         <div class="three-model">
           <a href="./collage/collage 2.png" target="_blank"><img src="./collage/collage 2.png" id="collage1" alt="Collage Image 1" /></a>
         </div>
+        <div class="video">
+          <div class="video-container">
+          <video width="320" height="240" controls>
+          <source src="./collage/Collagevideo.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+          </video>
+          </div>
+        </div>
         <div id="images-description">
           <div id="images">
             ${cubes
@@ -179,6 +187,10 @@ I intend to keep using meshes in the future, as they allow me to create a clean,
       Calm Shores
         <div class="three-model">
           <div id="model5"></div>
+          <video width="320" height="240" controls>
+          <source src="./Game/Gameplay.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+          </video>
         </div>
         <div id="images-description">
           <div class="image-row">

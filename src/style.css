@@ -95,7 +95,9 @@ h1 {
 
 #model1,
 #model2,
-#model3 {
+#model3,
+#model4,
+#model5 {
   height: 300px;
   width: 300px;
   margin-right: 3em;

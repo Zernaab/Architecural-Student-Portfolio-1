@@ -1,29 +1,59 @@
 import "./style.css";
 import data from "./data/data";
-import { createThreeScene } from "./threeScene";
+import {
+    createThreeScene
+} from "./threeScene";
 
 const cubes = [
-  "./collage/ITERATIONS.png",
-  "./collage/ITERATIONS2.png",
-  "./collage/ITERATIONS3.png",
-  "./collage/ITERATIONS4.png",
-  "./collage/ITERATIONS5.png",
+    "./collage/ITERATIONS.png",
+    "./collage/ITERATIONS2.png",
+    "./collage/ITERATIONS3.png",
+    "./collage/ITERATIONS4.png",
+    "./collage/ITERATIONS5.png",
 ];
 
 const trees = [
-  "./Bulbasaur/anylsis2.png",
-  "./Bulbasaur/anylsis3.png",
-  "./Bulbasaur/anylsis4.png",
-  "./Bulbasaur/anylsis5.png",
-  "./Bulbasaur/anylsis6.png",
-  "./Bulbasaur/anylsis7.png",
+    "./Bulbasaur/anylsis2.png",
+    "./Bulbasaur/anylsis3.png",
+    "./Bulbasaur/anylsis4.png",
+    "./Bulbasaur/anylsis5.png",
+    "./Bulbasaur/anylsis6.png",
+    "./Bulbasaur/anylsis7.png",
 ];
 
 const houses = [
-  "./houseDrawings/house1.jpg",
-  "./houseDrawings/house2.jpg",
-  "./houseDrawings/house3.jpg",
-  "./houseDrawings/house4.jpg",
+    "./Goggles/goggles.png",
+    "./Goggles/goggles2.png",
+    "./Goggles/goggles3.png",
+    "./Goggles/goggles4.png",
+    "./Goggles/goggles5.png",
+    "./Goggles/goggles6.png",
+];
+
+const rocks = [
+  "./Pavilion/Pavilion.png",
+  "./Pavilion/Pavilion2.png",
+  "./Pavilion/Pavilion4.png",
+  "./Pavilion/Pavilion3.png",
+  "./Pavilion/Pavilion5.png",
+  "./Pavilion/Pavilion6.png",
+  "./Pavilion/Pavilion7.png",
+  "./Pavilion/Pavilion8.png",
+  "./Pavilion/Pavilion9.png",
+  "./Pavilion/Pavilion10.png",
+  "./Pavilion/pavilionaxo.png",
+  "./Pavilion/pavilionjoinery.png",
+  "./Pavilion/pavilionpieces.png",
+];
+
+const dogs = [
+  "./Game/Game.png",
+  "./Game/Game2.png",
+  "./Game/Game3.png",
+  "./Game/Game4.png",
+  "./Game/Game5.png",
+  "./Game/Game6.png",
+  
 ];
 
 document.querySelector("#app").innerHTML = `
@@ -78,29 +108,89 @@ Overall, this assignment has taught me the ups and downs of different modelling 
 
 I intend to keep using meshes in the future, as they allow me to create a clean, simple typology that still looks complex with the help of SubD modifiers. I can also vary my file imports depending on what my object requires. This experience has provided me with helpful lessons that will enhance my skills for future projects. 
 </h4>
-        </div>
       </div>
     
       
-      ${/* Model 3 commented out
       <div id="project-row">
-      Model 3
+      Past Sight
         <div class="three-model">
           <div id="model3"></div>
         </div>
         <div id="images-description">
           <div id="images">
-            ${houses
-              .map(
-                (house, index) => `<img src="${house}" alt="house${index + 1}" />`
-              )
-              .join("")}
+          ${houses
+            .map(
+              (houses, index) => `<a href="${houses}" target="_blank"><img src="${houses}" alt="house${index + 1}" /></a>`
+            )
+            .join("")}
           </div>
-          <h4 id="description">A 3D house model is a geometric representation of a house, featuring walls, a roof, and windows. It often includes additional details such as doors, chimneys, and balconies, with textures like brick, wood, or stucco to enhance realism. The interior may also feature rooms, furniture, and lighting for a more detailed design.</h4>
-        </div>
+          <h4 id="description">This Assignment we had focused on creating an object based on our exquisite corpse, one that would fit into the story being told. Eyes are the portals to a person's inner world, and outer world of perception and reality. 
+          
+          These goggles allow you to see a space up to 100 years ago, with each lens showing a different time period. It provides the user an immersive experience through sight and sound. 
+         
+          Through this device, modernism can preserve tradition and history through technology, integrating the past into our future. To fabricate the model I had used blender, with various mesh modeling tools to create the design, and then imported it to rhino to create a paper craft, as well as 3d print.
+          </h4>
+          </div>
       </div>
-      */ ""}
+
+      </div>
+    
+      
+      <div id="project-row">
+      Bridge Between Worlds
+        <div class="three-model">
+          <div id="model4"></div>
+        </div>
+        <div id="images-description">
+          <div class="image-row">
+          ${rocks
+            .map(
+              (rocks, index) => `<a href="${rocks}" target="_blank"><img src="${rocks}" alt="rock${index + 1}" class="images" /></a>`
+            )
+            .join("")}
+          </div>
+          <h4 id="description">This assignment was a group project, and required us to create a large gathering space based on one of a group members' pavilion.
+          
+          A bridge between worlds symbolizes that, despite the many paths one may take in life, humans are always interconnected, with their lives occurring simultaneously. 
+          
+          These brief interactions are celebrated at the point where they converge, creating a blend of intertwined journeys. 
+          
+          To fabricate this pavilion, we had used grasshoppers to create a large base pillar located in the center, and a blender was used for the more organic modeling such as the arch ways. 
+          
+          Tessellation and parametric design is used throughout this design, and the files were optimized in rhino to prepare laser cutting files for physical model making.
+          
+          Materials such as bass wood, organza, copper wire and bristol paper were used to create the physical model. 
+          
+          Overall this project taught me important model making skills, and how to use tools like laser cutters to be more efficient. 
+          </h4>
+          </div>
+
+      </div>
+    
+      
+      <div id="project-row">
+      Calm shores
+        <div class="three-model">
+          <div id="model5"></div>
+        </div>
+        <div id="images-description">
+          <div class="image-row">
+          ${dogs
+            .map(
+              (dogs, index) => `<a href="${dogs}" target="_blank"><img src="${dogs}" alt="dogs${index + 1}" class="images" /></a>`
+            )
+            .join("")}
+          </div>
+          <h4 id="description">This final assignment was focused on conceptualizing our exquisite corpse, and creating a virtual 3d environment based on its core concepts and values. 
+          
+          This space was to be designed to showcase all of our previous projects, which you can experience here (https://www.spatial.io/s/DSGN-313-PORTFOLIO-67ff0aaef734432bbfb0a9d0?share=3626308090791259443). 
+          
+          The Islands are designed to represent an aspect of the collage, showcasing how modern technology has broken down, and we must now conform to nature, in harmony with art and culture. Overall this assignment taught me valuable skills in the program Unity, and sparked an interest in video game design.
+          </h4>
+          </div>
     </section>
+
+    
 
     <ul id="footer-items">
       <li>Email: ${data.contact.email}</li>
@@ -117,5 +207,7 @@ I intend to keep using meshes in the future, as they allow me to create a clean,
 
 // Create three.js scenes for each
 // createThreeScene("#model1", "/3DModels/project1/cube.obj");
- createThreeScene("#model2", "/3DModels/project2/Buba.obj");
-// createThreeScene("#model3", "/3DModels/project3/cottage.obj");
+createThreeScene("#model2", "/3DModels/project2/Buba.obj");
+createThreeScene("#model3", "/3DModels/project3/Goggles.obj");
+createThreeScene("#model4", "/3DModels/project3/pavilion.obj");
+createThreeScene("#model5", "/3DModels/project3/Game.obj");

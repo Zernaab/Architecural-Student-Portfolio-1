@@ -50,10 +50,17 @@ const dogs = [
   "./Game/Game.png",
   "./Game/Game2.png",
   "./Game/Game3.png",
-  "./Game/Game4.png",
   "./Game/Game5.png",
   "./Game/Game6.png",
-  
+  "./Game/Screenshot9.png",
+  "./Game/Screenshot8.png",
+  "./Game/Screenshot7.png",
+  "./Game/Screenshot6.png",
+  "./Game/Screenshot5.png",
+  "./Game/Screenshot4.png",
+  "./Game/Screenshot3.png",
+  "./Game/Screenshot2.png",
+  "./Game/Screenshot1.png",
 ];
 
 document.querySelector("#app").innerHTML = `
@@ -169,7 +176,7 @@ I intend to keep using meshes in the future, as they allow me to create a clean,
     
       
       <div id="project-row">
-      Calm shores
+      Calm Shores
         <div class="three-model">
           <div id="model5"></div>
         </div>
@@ -183,7 +190,7 @@ I intend to keep using meshes in the future, as they allow me to create a clean,
           </div>
           <h4 id="description">This final assignment was focused on conceptualizing our exquisite corpse, and creating a virtual 3d environment based on its core concepts and values. 
           
-          This space was to be designed to showcase all of our previous projects, which you can experience here (https://www.spatial.io/s/DSGN-313-PORTFOLIO-67ff0aaef734432bbfb0a9d0?share=3626308090791259443). 
+          This space was to be designed to showcase all of our previous projects. 
           
           The Islands are designed to represent an aspect of the collage, showcasing how modern technology has broken down, and we must now conform to nature, in harmony with art and culture. Overall this assignment taught me valuable skills in the program Unity, and sparked an interest in video game design.
           </h4>
@@ -195,8 +202,8 @@ I intend to keep using meshes in the future, as they allow me to create a clean,
     <ul id="footer-items">
       <li>Email: ${data.contact.email}</li>
       <li>Phone: ${data.contact.phone}</li>
-      <li>LinkedIn: <a href="${data.contact.linkedin}">${
-  data.contact.linkedin
+      <li>Game: <a href="${data.contact.spatial}">${
+  data.contact.Game
 }</a></li>
       <li>GitHub: <a href="${data.contact.github}">${
   data.contact.github

@@ -6,7 +6,8 @@ const data = {
     contact: {
         email: "nisar.zernaab@gmail.com",
         phone: "6393179937",
-        linkedin: "not available",
+        Game: "Calm Shores",
+        spatial: "https://www.spatial.io/s/DSGN-313-PORTFOLIO-67ff0aaef734432bbfb0a9d0?share=3626308090791259443",
         github: "https://github.com/Zernaab",
     }
 }
